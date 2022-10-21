@@ -1,0 +1,17 @@
+{
+    "extends": "standard-with-typescript",
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "@typescript-eslint/indent": 4,
+        "no-tabs": "off",
+        "@typescript-eslint/space-before-function-paren": "off",
+        "no-trailing-spaces": "off",
+        "padded-blocks": "off"
+    },
+    "ignorePatterns": [
+        "dist",
+        "src/**/*.js"
+    ]
+}
